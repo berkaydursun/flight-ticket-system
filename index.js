@@ -1,5 +1,5 @@
 const app = require('./app');
 
-app.listen(3000, () => {
-    console.log('Express Server Running at ', 3000);
+app.listen(process.env.PORT, () => {
+    console.log('Express Server Running at ', process.env.PORT);
 })
